@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.about-title {
+  color: var(--white, #FFF);
+
+/* H2 */
+font-family: Montserrat;
+font-size: 64px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -2.56px;
+}
+
+.about-paragraph{
+  color: var(--white, #FFF);
+
+/* H3 */
+font-family: Montserrat;
+font-size: 29px;
+font-style: normal;
+font-weight: 700;
+line-height: 34px; /* 117.241% */
+letter-spacing: -0.29px;
+}
