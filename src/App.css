@@ -8,23 +8,38 @@
 .about-title {
   color: var(--white, #FFF);
 
-/* H2 */
-font-family: Montserrat;
-font-size: 64px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-letter-spacing: -2.56px;
+  /* H2 */
+  font-family: Montserrat;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -2.56px;
+
+  text-align: left;
 }
 
-.about-paragraph{
+.about-paragraph {
   color: var(--white, #FFF);
 
-/* H3 */
-font-family: Montserrat;
-font-size: 29px;
-font-style: normal;
-font-weight: 700;
-line-height: 34px; /* 117.241% */
-letter-spacing: -0.29px;
+  /* H4 */
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+}
+
+.about-paragraph div {
+  margin: 30px;
+}
+
+.about-paragraph div div img {
+  width: '150px';
+  height: '150px';
 }
