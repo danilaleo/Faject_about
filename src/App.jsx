@@ -12,21 +12,24 @@ function App() {
   return (
     <>
       <div>
-
         <div>
           <h2 className='about-title'>О компании</h2>
         </div>
 
+
         <div className="about-paragraph">
-          <div style={{ display: "inline-block" }}>
-            <img src={handShake} alt="Hand Shake" />
-          </div>
-          <div>
+        <div>
             Почти 3 года в Faject мы занимаемся разработкой и дизайном для компаний по всему миру. Мы помогаем компаниям создавать сервисы и сайты для людей. Делаем бизнес комфортным и удобным в общении с клиентами так, чтобы это было выгодно.
           </div>
+          <div style={{ display: "inline-block" }}>
+            <img src={handShake} alt="Hand Shake" />
+          </div> 
         </div>
+
+        
         <div className="about-paragraph">
-          <div className="text-right"> своей работе мы активно работаем с заказчиком, чтобы обеспечить наилучший результат и совместное творчество</div>
+          <div className="text-right"> В своей работе мы активно работаем с заказчиком, чтобы обеспечить наилучший результат и совместное творчество
+          </div>
           <div>
             <img src={questions} alt="questions" />
           </div>
@@ -44,6 +47,31 @@ function App() {
           <div>
             <img src={peoplesActivity} alt="Peoples activity" />
           </div>
+        </div>
+        <div className='about-counters-section'>
+          <div className='about-counter-box'>
+            <div className='about-counter'>+150</div>
+            <div className='about-counter-subtitle'>Проектов</div>
+          </div>
+          <div className='about-counter-box'>
+            <div className='about-counter'>&#9002;&#8288;1000&nbsp;000</div>
+            <div className='about-counter-subtitle'>Проектов</div>
+          </div>
+          <div className='about-counter-box'>
+            <div className='about-counter'>+17</div>
+            <div className='about-counter-subtitle'>Профессионалов в международной команде</div>
+          </div>
+        </div>
+        <div className='about-footer'>
+          <div>
+            <div>Условия & Положения</div>
+            <div>Политика конфиденциальности</div>
+            <div>©2018—2023 Faject</div>
+            </div>
+          <div>
+            <div>мы здесь</div>
+            <div>kartinko</div>
+            </div>
         </div>
       </div>
     </>
