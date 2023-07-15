@@ -3,6 +3,9 @@ import handShake from './assets/images/HandShake.svg';
 import questions from './assets/images/Questions.svg';
 import brain from './assets/images/Brain.svg';
 import peoplesActivity from './assets/images/PeoplesActivity.png';
+import instagram from './assets/images/Instagram_logo_2016 1.svg';
+import whatsapp from './assets/images/WhatsApp_logo-color-vertical 1.png'
+import telegram from './assets/images/Telegram_logo 1.svg'
 
 import './App.css';
 
@@ -25,28 +28,30 @@ function App() {
             <img src={handShake} alt="Hand Shake" />
           </div> 
         </div>
-
-        
         <div className="about-paragraph">
-          <div className="text-right"> В своей работе мы активно работаем с заказчиком, чтобы обеспечить наилучший результат и совместное творчество
-          </div>
-          <div>
+        <div>
             <img src={questions} alt="questions" />
           </div>
+          
+          <div className="text-right"> В своей работе мы активно работаем с заказчиком, чтобы обеспечить наилучший результат и совместное творчество
+          </div>
+         
         </div>
         <div className="about-paragraph">
+        <div>Для оптимизации всех процессов и экономии средств клиента на начальных этапах разработки мы используем неройнные сети. Так, мы внесколько раз ускоряем подбор стиля иллюстраций, чтобы заказчик мог выбрать, что ему больше по душе. 
+          </div>
           <div>
             <img src={brain} alt="brain" />
           </div>
-          <div>Для оптимизации всех процессов и экономии средств клиента на начальных этапах разработки мы используем неройнные сети. Так, мы внесколько раз ускоряем подбор стиля иллюстраций, чтобы заказчик мог выбрать, что ему больше по душе. </div>
         </div>
+        
         <div className="about-paragraph">
-          <div className="text-right">
-            На этапе разработки технического задания мы изучаем потребности и цели вашей компании. Мы предлагаем наилучшие решения, экономя средства заказчика и избавляясь от лишних функций. Наша главная задача - предоставить удобный функционал и эффективный инструмент маркетинга для вашего бизнеса.
-          </div>
-          <div>
+        <div>
             <img src={peoplesActivity} alt="Peoples activity" />
           </div>
+          <div className="text-right">
+            На этапе разработки технического задания мы изучаем потребности и цели вашей компании. Мы предлагаем наилучшие решения, экономя средства заказчика и избавляясь от лишних функций. Наша главная задача - предоставить удобный функционал и эффективный инструмент маркетинга для вашего бизнеса.
+          </div>      
         </div>
         <div className='about-counters-section'>
           <div className='about-counter-box'>
@@ -68,9 +73,15 @@ function App() {
             <div>Политика конфиденциальности</div>
             <div>©2018—2023 Faject</div>
             </div>
+          
           <div>
             <div>мы здесь</div>
-            <div>kartinko</div>
+            <div>
+              <img src={instagram} alt="instagram logo" style={{ display: "inline-block" }} />
+              <img src={telegram} alt="telegram logo" style={{ display: "inline-block" }} />
+              <img src={whatsapp} alt="whatsapp logo" style={{ display: "inline-block" }} />
+
+            </div>
             </div>
         </div>
       </div>
