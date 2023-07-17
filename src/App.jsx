@@ -1,11 +1,10 @@
-import { useState } from 'react';
 import handShake from './assets/images/HandShake.svg';
 import questions from './assets/images/Questions.svg';
 import brain from './assets/images/Brain.svg';
 import peoplesActivity from './assets/images/PeoplesActivity.png';
-import instagram from './assets/images/Instagram_logo_2016 1.svg';
-import whatsapp from './assets/images/WhatsApp_logo-color-vertical 1.png'
-import telegram from './assets/images/Telegram_logo 1.svg'
+import instagram from './assets/images/Instagram_logo_2016.svg';
+import whatsapp from './assets/images/WhatsApp.svg'
+import telegram from './assets/images/Telegram_logo.svg'
 
 import './App.css';
 
