@@ -5,6 +5,8 @@ import peoplesActivity from './assets/images/PeoplesActivity.png';
 import instagram from './assets/images/Instagram_logo_2016.svg';
 import whatsapp from './assets/images/WhatsApp.svg';
 import telegram from './assets/images/Telegram_logo.svg';
+import fajectLogo from './assets/images/faject_logo.svg'
+
 
 import './App.css';
 import AnimateOnScroll from "./components/AnimateOnScroll.jsx";
@@ -13,6 +15,14 @@ import FadeInOnScroll from "./components/FadeInOnScroll.jsx";
 function App() {
     return (
         <>
+        <div class="topnav">
+       
+    <a href="#fajectLogo"><img src={fajectLogo} alt="fajectLogo" /></a>                
+    <a href="#Portfolio">Портфолио</a>
+    <a href="#About_us">О компании</a>
+    <a href="#Language" class="split">Язык</a>
+    <a href="#Order_a_project" class="split">Заказать проект</a>
+</div>
             <div>
                 <div style={{marginTop: '1500px'}}>
                     <h2 className='about-title'>О компании</h2>
