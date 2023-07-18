@@ -6,6 +6,7 @@ import instagram from './assets/images/Instagram_logo_2016.svg';
 import whatsapp from './assets/images/WhatsApp.svg';
 import telegram from './assets/images/Telegram_logo.svg';
 import fajectLogo from './assets/images/faject_logo.svg'
+import langButtonIcon from './assets/images/Union.svg'
 
 
 import './App.css';
@@ -19,10 +20,11 @@ function App() {
                 <a href="#fajectLogo"><img src={fajectLogo} alt="fajectLogo" /></a>
                 <a href="#Portfolio">Портфолио</a>
                 <a href="#About_us">О компании</a>
-                <a href="#Language" className="split">Язык</a>
-                <a href="#Order_a_project" className="split">Заказать проект</a>
+
+                <button className="lang-button"><img src={langButtonIcon}/><div>RU</div></button>
+                <button className="order-button">Заказать&nbsp;проект</button>
             </div>
-            <div style={{width: '100%', maxWidth: '1500px', marginTop: '1500px'}}>
+            <div style={{width: '100%', minWidth: '900px', maxWidth: '1500px', marginTop: '1500px'}}>
                 <div style={{width: '100%', margin: '50px'}}>
                     <h2 className='about-title'>О компании</h2>
                 </div>
