@@ -75,7 +75,9 @@ function App() {
                     </div>
                     <div className='about-counter-box'>
                         <div className='about-counter'>&#9002;&#8288;1000&nbsp;000</div>
-                        <div className='about-counter-subtitle'>Проектов</div>
+                        <div className='about-counter-subtitle'>Человек посещают сайты
+и сервисы, разарботанные 
+нами ежедневно</div>
                     </div>
                     <div className='about-counter-box'>
                         <div className='about-counter'>+17</div>
@@ -91,7 +93,7 @@ function App() {
                     </div>
 
                     <div>
-                        <div>мы здесь!</div>
+                        <div>Мы здесь!</div>
                         <div className='social-logos'>
                             <img src={instagram} alt="instagram logo" className='social-logo' />
                             <img src={telegram} alt="telegram logo" className='social-logo' />

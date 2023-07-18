@@ -45,7 +45,7 @@ const AnimateOnScroll = ({children, reappear, threshold = 0.5}) => {
     return (
         <>
             <div ref={containerRef}>
-                <Slide direction="right" in={isVisible} mountOnEnter unmountOnExit>
+                <Slide direction="right" in={isVisible} mountOnEnter unmountOnExit timeout={1000}>
                     {children}
                 </Slide>
             </div>
