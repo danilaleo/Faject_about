@@ -9,31 +9,32 @@ import fajectLogo from './assets/images/faject_logo.svg'
 
 
 import './App.css';
-import AnimateOnScroll from "./components/AnimateOnScroll.jsx";
+import SlideInOnScroll from "./components/SlideInOnScroll.jsx";
 import FadeInOnScroll from "./components/FadeInOnScroll.jsx";
 
 function App() {
     return (
         <>
-        <div class="topnav">
-       
-    <a href="#fajectLogo"><img src={fajectLogo} alt="fajectLogo" /></a>                
-    <a href="#Portfolio">Портфолио</a>
-    <a href="#About_us">О компании</a>
-    <a href="#Language" class="split">Язык</a>
-    <a href="#Order_a_project" class="split">Заказать проект</a>
-</div>
-            <div>
-                <div style={{marginTop: '1500px'}}>
+            <div className="topnav">
+                <a href="#fajectLogo"><img src={fajectLogo} alt="fajectLogo" /></a>
+                <a href="#Portfolio">Портфолио</a>
+                <a href="#About_us">О компании</a>
+                <a href="#Language" className="split">Язык</a>
+                <a href="#Order_a_project" className="split">Заказать проект</a>
+            </div>
+            <div style={{width: '100%', maxWidth: '1500px', marginTop: '1500px'}}>
+                <div style={{width: '100%', margin: '50px'}}>
                     <h2 className='about-title'>О компании</h2>
                 </div>
 
                 <div className="about-paragraph">
-                    <AnimateOnScroll reappear>
+                    <SlideInOnScroll reappear>
                         <div>
-                            Почти 3 года в Faject мы занимаемся разработкой и дизайном для компаний по всему миру. Мы помогаем компаниям создавать сервисы и сайты для людей. Делаем бизнес комфортным и удобным в общении с клиентами так, чтобы это было выгодно.
+                            Почти 3 года в Faject мы занимаемся разработкой и дизайном для компаний по всему миру. Мы
+                            помогаем компаниям создавать сервисы и сайты для людей. Делаем бизнес комфортным и удобным в
+                            общении с клиентами так, чтобы это было выгодно.
                         </div>
-                    </AnimateOnScroll>
+                    </SlideInOnScroll>
                     <FadeInOnScroll reappear>
                         <div style={{display: 'inline-block'}}>
                             <img src={handShake} alt="Hand Shake" />
@@ -47,17 +48,20 @@ function App() {
                             <img src={questions} alt="questions" />
                         </div>
                     </FadeInOnScroll>
-                    <AnimateOnScroll reappear>
-                        <div className="text-right"> В своей работе мы активно работаем с заказчиком, чтобы обеспечить наилучший результат и совместное творчество
+                    <SlideInOnScroll reappear direction={'left'}>
+                        <div className="text-right"> В своей работе мы активно работаем с заказчиком, чтобы обеспечить
+                            наилучший результат и совместное творчество
                         </div>
-                    </AnimateOnScroll>
+                    </SlideInOnScroll>
                 </div>
 
                 <div className="about-paragraph">
-                    <AnimateOnScroll reappear>
-                        <div>Для оптимизации всех процессов и экономии средств клиента на начальных этапах разработки мы используем неройнные сети. Так, мы внесколько раз ускоряем подбор стиля иллюстраций, чтобы заказчик мог выбрать, что ему больше по душе.
+                    <SlideInOnScroll reappear>
+                        <div>Для оптимизации всех процессов и экономии средств клиента на начальных этапах разработки мы
+                            используем неройнные сети. Так, мы внесколько раз ускоряем подбор стиля иллюстраций, чтобы
+                            заказчик мог выбрать, что ему больше по душе.
                         </div>
-                    </AnimateOnScroll>
+                    </SlideInOnScroll>
                     <FadeInOnScroll reappear>
                         <div>
                             <img src={brain} alt="brain" />
@@ -71,11 +75,14 @@ function App() {
                             <img src={peoplesActivity} alt="Peoples activity" />
                         </div>
                     </FadeInOnScroll>
-                    <AnimateOnScroll reappear>
+                    <SlideInOnScroll reappear direction={'left'}>
                         <div className="text-right">
-                            На этапе разработки технического задания мы изучаем потребности и цели вашей компании. Мы предлагаем наилучшие решения, экономя средства заказчика и избавляясь от лишних функций. Наша главная задача - предоставить удобный функционал и эффективный инструмент маркетинга для вашего бизнеса.
+                            На этапе разработки технического задания мы изучаем потребности и цели вашей компании. Мы
+                            предлагаем наилучшие решения, экономя средства заказчика и избавляясь от лишних функций.
+                            Наша главная задача - предоставить удобный функционал и эффективный инструмент маркетинга
+                            для вашего бизнеса.
                         </div>
-                    </AnimateOnScroll>
+                    </SlideInOnScroll>
                 </div>
 
                 <div className='about-counters-section'>
@@ -86,8 +93,9 @@ function App() {
                     <div className='about-counter-box'>
                         <div className='about-counter'>&#9002;&#8288;1000&nbsp;000</div>
                         <div className='about-counter-subtitle'>Человек посещают сайты
-и сервисы, разарботанные 
-нами ежедневно</div>
+                            и сервисы, разарботанные
+                            нами ежедневно
+                        </div>
                     </div>
                     <div className='about-counter-box'>
                         <div className='about-counter'>+17</div>

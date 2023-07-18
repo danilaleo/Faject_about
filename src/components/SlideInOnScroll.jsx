@@ -36,7 +36,7 @@ const useElementOnScreen = (options) => {
 
 
 // eslint-disable-next-line react/prop-types
-const AnimateOnScroll = ({children, reappear, threshold = 0.5}) => {
+const SlideInOnScroll = ({children, reappear, threshold = 0.5, direction = "right"}) => {
     const [containerRef, isVisible] = useElementOnScreen({
         threshold: threshold,
         reappear: reappear,
@@ -45,7 +45,7 @@ const AnimateOnScroll = ({children, reappear, threshold = 0.5}) => {
     return (
         <>
             <div ref={containerRef}>
-                <Slide direction="right" in={isVisible} mountOnEnter unmountOnExit timeout={1000}>
+                <Slide direction={direction} in={isVisible} mountOnEnter unmountOnExit timeout={1000}>
                     {children}
                 </Slide>
             </div>
@@ -53,4 +53,4 @@ const AnimateOnScroll = ({children, reappear, threshold = 0.5}) => {
     );
 }
 
-export default AnimateOnScroll;
+export default SlideInOnScroll;
