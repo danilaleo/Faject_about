@@ -126,7 +126,8 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 32px; /* 200% */
+    line-height: 32px;
+    /* 200% */
     letter-spacing: -0.16px;
 }
 
@@ -150,8 +151,8 @@
     border: 3px solid;
     position: absolute;
 
-    background-color: #000000;
 }
+
 .lang-button {
     background-color: #000000;
     margin: 10px 0 0 0;
@@ -167,4 +168,39 @@
 
 .lang-button img {
     margin: 0 7px 0 0;
+}
+
+body {
+    font-size: 25px;
+}
+
+.Aligner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 16px;
+}
+
+.Aligner-item {
+    max-width: 50%;
+    padding: 1%;
+}
+
+.navbar-outer {
+    display: flex;
+    height: 64px;
+    padding: 0px 96px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-right {
+    height: 100%;
+    width: 300px;
+    display: flex;
+    align-items: stretch;
+    justify-content: right;
+    padding: 0 20px 0 0;
 }
