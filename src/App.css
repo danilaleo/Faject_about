@@ -154,14 +154,16 @@
 .lang-button {
     background-color: #000000;
     margin: 10px 0 0 0;
+    font-size: 23px;
+    display: flex;
 }
 
 .lang-button div {
     display: inline-block;
     position: relative;
-    top: -6px;
-    font-size: 17px;
+    font-size: 23px;
     font-weight: bold;
+    padding: 7px 0 0 10px;
 }
 
 .lang-button img {
@@ -170,9 +172,10 @@
 
 body {
     font-size: 25px;
+    background-color: #040D11;
 }
 
-.Aligner {
+.navbar-left {
     height: 100%;
     width: 50%;
     display: flex;
@@ -181,9 +184,16 @@ body {
     gap: 16px;
 }
 
-.Aligner-item {
+.navbar-left-item {
     max-width: 50%;
     padding: 1%;
+}
+.navbar-left-item img {
+    height: 67px;
+    padding-top: 10px;
+}
+.navbar-right-item img {
+    height: 40px;
 }
 
 .navbar-outer {
@@ -192,6 +202,9 @@ body {
     padding: 0 96px;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    max-width: 1500px;
+    height: 100px;
 }
 
 .navbar-right {
@@ -200,5 +213,5 @@ body {
     display: flex;
     align-items: stretch;
     justify-content: right;
-    padding: 0 20px 0 0;
+    padding: 10px 20px 0 0;
 }

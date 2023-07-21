@@ -16,15 +16,15 @@ import FadeInOnScroll from "./components/FadeInOnScroll.jsx";
 function App() {
   return (
     <>
-      <div className='navbar-outer' style={{ width: '100%', minWidth: '900px', maxWidth: '1500px', height: '100px' }}>
-        <div className="Aligner">
-          <div className="Aligner-item"><img src={fajectLogo} alt="fajectLogo" /></div>
-          <div className="Aligner-item">Портфолио</div>
-          <div className="Aligner-item">О компании</div>
+      <div className='navbar-outer'>
+        <div className="navbar-left">
+          <div className="navbar-left-item"><img src={fajectLogo} alt="fajectLogo" /></div>
+          <div className="navbar-left-item">Портфолио</div>
+          <div className="navbar-left-item">О компании</div>
         </div>
         <div className='navbar-right'>
-          <div className="Aligner-item"><button className="lang-button"><img src={langButtonIcon} alt="langButtonIcon" /><div>RU</div></button></div>
-          <div className="Aligner-item"><button className="order-button">Заказать&nbsp;проект</button></div>
+          <div className="navbar-right-item"><button className="lang-button"><img src={langButtonIcon} alt="langButtonIcon" /><div>RU</div></button></div>
+          <div className="navbar-right-item"><button className="order-button">Заказать&nbsp;проект</button></div>
         </div>
       </div>
 
