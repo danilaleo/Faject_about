@@ -40,11 +40,6 @@
     margin: 30px;
 }
 
-.about-paragraph div div img {
-    width: '150px';
-    height: '150px';
-}
-
 .about-counters-section {
     display: flex;
     justify-content: space-between;
@@ -136,8 +131,11 @@
     color: black;
 }
 
-/* Right aligned (split) link inside the nav bar */
+.page-container {
+    width: 1280px;
+}
 
+/* Right aligned (split) link inside the nav bar */
 .topnav a.split {
     float: right;
     background-color: #3f8cf1;
@@ -199,12 +197,11 @@ body {
 .navbar-outer {
     display: flex;
     height: 64px;
-    padding: 0 96px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 1500px;
     height: 100px;
+    white-space: nowrap;
 }
 
 .navbar-right {
